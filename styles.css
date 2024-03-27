@@ -1,0 +1,41 @@
+.calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: aqua;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    color: red;
+    font-size: large;
+  }
+  
+  input[type="number"], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:small;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+  }
+  
